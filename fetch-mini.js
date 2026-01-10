@@ -13,4 +13,4 @@ fetch(url,{
 		func(data)
 	}
 	)
-}<
+}
