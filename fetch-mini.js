@@ -16,6 +16,3 @@ function request(url,method,responseType,func) {
   	  func("网络请求出错！" + error.stack)
   	})
   }
-request("http://vhsf4d0eb40.lxoffice.work/","GET","text",data => {
-  console.log(data)
-})
